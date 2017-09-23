@@ -9,12 +9,12 @@ For example, all location information is put in the title, while there is a dedi
 # Usage
 1. Login and export your AAU calendar in Moodle at: (for non-AAU users, hope you can find this yourself ;))
 [https://www.moodle.aau.dk/calendar/export.php](https://www.moodle.aau.dk/calendar/export.php)
-This will give you an url that looks something like this:
+  This will give you an url that looks something like this:
 https://www.moodle.aau.dk/calendar/export_execute.php?userid=XXXX&authtoken=XXXXX&preset_what=XXX&preset_time=XXXX
 
 2. Copy the last part of that URL and add it to this url:
 http://gerkevangarderen.nl/icalAAU.php
-This should look like this:
+  This should look like this:
 http://gerkevangarderen.nl/icalAAU.php?userid=XXXX&authtoken=XXXXX&preset_what=XXX&preset_time=XXXX
 (XXX's would of course be your personal Moodle content)
 
