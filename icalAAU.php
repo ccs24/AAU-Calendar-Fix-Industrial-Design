@@ -23,29 +23,11 @@ if (!isset($_GET["preset_time"])){
 // DISPLAY ERROR AND USAGE EXPLANATION IF VARIABLES ARE MISSING
 if ($allVariables != 1){
 	echo "<div style=\"margin-left:20px;font-family: 'Ubuntu light','Open Sans Light',Verdana,Geneva,sans-serif\"><font color=\"red\">".$error."</font><br /><h1>Given url is not correct.</h1>\nPlease check the url. URL should look like:<br \>
-	https://gerkevangarderen.nl/icalAAU.php?userid=XXXX&authtoken=XXXXX&preset_what=XXX&preset_time=XXXX <br /><br />URL correct, but still not working? Sorry! :( <br /> Contact me via <a href=\"https://gerkevangarderen.nl#contact\">my website</a> and I will try to solve it asap."; ?>
-	<br />
-	<h1>Instructions</h1> 
-	<p>You need to export your calendar in Moodle at:<br />
-	<a href="https://www.moodle.aau.dk/calendar/export.php">https://www.moodle.aau.dk/calendar/export.php</a></p>
-
-	<p>This will give you an url that looks something like this:<br />
-	https://www.moodle.aau.dk/calendar/export_execute.php?userid=XXXX&amp;authtoken=XXXXX&amp;preset_what=XXX&amp;preset_time=XXXX </p>
-
-	<p>Just copy the last part and add it to my url:<br />
-	http://gerkevangarderen.nl/icalAAU.php</p>
-
-	<p>Final link would look like:<br />
-	http://gerkevangarderen.nl/icalAAU.php?userid=XXXX&amp;authtoken=XXXXX&amp;preset_what=XXX&amp;preset_time=XXXX<br />
-	(XXX's would of course be your personal Moodle content)</p>
-
-	<p>You can then use that link to import into any calendar app (Google Calendar, Apple Calendar, etc.)</p>
-
-	<p>NB: I have tested it, and it fully works for me (Google Calendar). It should work in any other application.<br />
-	Please do check if nothing is missing in your calendar, as it is a DIY-project and might not be 100% solid.</p>
-
-	<p>NB NB: I don't store any data, your login is safe. You can check the source code at <a href="https://github.com/gerkevgarderen/AAU-Calendar-Fix-Industrial-Design/">GitHub</a>.</p>
-<?php
+	https://gerkevangarderen.nl/icalAAU.php?userid=XXXX&authtoken=XXXXX&preset_what=XXX&preset_time=XXXX <br /><br />URL correct, but still not working? Sorry! :( <br /> Contact me via <a href=\"https://gerkevangarderen.nl#contact\">my website</a> and I will try to solve it asap.";
+	?>
+	<p>If you have no idea what you're doing, please check the <a href="https://gerkevgarderen.github.io/AAU-Calendar-Fix-Industrial-Design/">explanation at GitHub.io</a>.</p>
+	</div>
+	<?php
 }
 else{
 	// SET THE HEADER OF THE DOCUMENT TO ALLOW ICAL-READERS TO THINK IT IS A REGULAR .ICAL FILE
