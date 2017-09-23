@@ -23,4 +23,6 @@ http://gerkevangarderen.nl/icalAAU.php?userid=XXXX&authtoken=XXXXX&preset_what=X
 NB: I have tested it, and it fully works for me (Google Calendar). It should work in any other application.
 Please do check if nothing is missing in your calendar, as it is a DIY-project and might not be 100% solid.
 
-NB NB: I don't store any data, your login is safe. You can check it in the source code here.
+NB NB: I don't store any data, your login is safe. You can check it in the [Source code](icalAAU.php)source code here.
+Also, the small bits of login information that you do share, can't be used to login to your account. There is no big risk.
+If you want to play it 100% safe, download a copy and host it on your own webserver :)
